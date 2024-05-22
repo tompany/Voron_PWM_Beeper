@@ -5,6 +5,13 @@
 Tom van Thiel
 May 2024
 
+Table of Contents
+- [Credits](#credits)
+  - [Preparations](#preparations)
+  - [How to convert melodies](#how-to-convert-melodies)
+  - 
+
+
 ## Credits
 The tunes and the PWM values in this package are made by [**Robson Couto**](https://github.com/robsoncouto)
 I only made an instruction for ChatGPT to translate his music code into Klipper gcode
@@ -20,7 +27,8 @@ I only made an instruction for ChatGPT to translate his music code into Klipper 
 You can find some nice songs on teh github repo of [**Robson Couto**](https://github.com/robsoncouto)
 I made a little instruction for ChatGPT to translate his melodies to gcode
 
-## How to convert the melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
+## How to convert melodies
+Turning melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
 1) Find melodies on: https://github.com/robsoncouto/arduino-songs
 2) Open the *.ino file of a melody
 3) Look for the part that looks like this:
