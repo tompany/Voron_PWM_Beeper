@@ -1,9 +1,15 @@
-# How to play tunes onn a speaker from your BTT Octopus v1.1.1 board
+# How to play tunes on a speaker from your BTT Octopus v1.1.1 board
 
-## For a Voron 2.4r2 with Klipper and Klipperscreen with a 7" touchscreen that has no buzzer.
+## Originally developped for a Voron 2.4r2 
 
-Tom van Thiel
-May 2024
+The Voron 2.4r2 (350mm in my case) printer was equiped with:
+- Klipper
+- Klipperscreen
+- A(ny) standard USB 7" touchscreen connected to the Raspberry Pi
+- The 7" touchscreens generally don't have an onboard buzzer
+
+Author: Tom van Thiel
+Date: May 2024
 
 ## Table of Contents
 - [Credits](#credits)
