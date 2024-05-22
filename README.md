@@ -7,8 +7,10 @@ May 2024
 
 ## Table of Contents
 - [Credits](#credits)
-  - [Preparations](#preparations)
-  - [How to convert melodies](#how-to-convert-melodies)
+- [Preparations](#preparations)
+  - [Remark](#remark)
+- [How to convert melodies](#how-to-convert-melodies)
+  - [ChatGPT instructions](#chatgpt-instructions)
 - [Electronics needed](#electronics-needed)
 - [Changes to your printer.cfg](#Changes-to-your-printercfg)
 
@@ -29,7 +31,7 @@ You can find some nice songs on teh github repo of [**Robson Couto**](https://gi
 I made a little instruction for ChatGPT to translate his melodies to gcode
 
 ## How to convert melodies
-Turning melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
+How to turn melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
 1) Find melodies on: https://github.com/robsoncouto/arduino-songs
 2) Open the *.ino file of a melody
 3) Look for the part that looks like this:
@@ -48,7 +50,8 @@ NOTE_A4, 2,
 8) Punch "Save & Restart" and you're all done, the melody macro is in your macro menu and can be called everywhere.
 
 ***
-### ChatGPT instructions to be copied in ChatGPT:
+### ChatGPT instructions
+These are the instructions to be copied in ChatGPT:
 ```
 Hey ChatGPT, take this code:
 
