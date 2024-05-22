@@ -20,7 +20,8 @@ The tunes and the PWM values in this package are made by [**Robson Couto**](http
 I only made an instruction for ChatGPT to translate his music code into Klipper gcode
 
 ## Preparations
-- Copy the [tunes__settings.cfg](https://github.com/tompany/Voron_PWM_Beeper/blob/main/Tunes%20Base%20Files/tunes__settings.cfg) to your KLIPPER config files folder 
+- Copy the [tunes__settings.cfg](https://github.com/tompany/Voron_PWM_Beeper/blob/main/Tunes%20Base%20Files/tunes__settings.cfg) to your KLIPPER config files folder [^1]
+[^1]: You can create a subfolder in your KLIPPER config files folder, and put all the files needed there and refer to them in the `[include ...]` statements this way: `[include subfolder/filename.cfg]`
 - Put `[include tunes__settings.cfg]` in the top section of your `printer.cfg` file. 
 - The `tunes__settings.cfg` contains all the macro's you need to play tunes on your speaker and instructions how tu use it. 
 - The [tunes_nokia.cfg](https://github.com/tompany/Voron_PWM_Beeper/blob/main/Tunes%20Base%20Files/tunes_nokia_ringtone.cfg) contains the classical Nokia Ringtone and **instructions how to make tunes**.
