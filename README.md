@@ -72,3 +72,8 @@ Additional instructions:
 
 Electronics needed:
 
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
