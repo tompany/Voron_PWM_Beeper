@@ -3,10 +3,18 @@
 ## Originally developped for a Voron 2.4r2 
 
 The Voron 2.4r2 (350mm in my case) printer was equiped with:
-- Klipper
-- Klipperscreen
+- klipper 		(v0.12.0-192-gb7f7b8a3)
+- crowsnest 		(v4.1.9-1-gd75a3aeb)
+- mainsail 		(v2.11.2)
+- mainsail-config 	(v1.2.1-0-ge57810d5)
+- moonraker 		(v0.8.0-359-g73df63db)
+- Raspberry Pi		(Raspberry Pi 4 Model B Rev 1.2)
+- Raspberry Pi OS	(Debian GNU/Linux 12 - bookworm)	
 - A(ny) standard USB 7" touchscreen connected to the Raspberry Pi
-- The 7" touchscreens generally don't have an onboard buzzer
+The 7" touchscreens generally dousn't have an onboard buzzer so that's why I made this
+
+The versions above are purely for reference. The solution presented here is based on standard GCODE MACRO functonality.
+It should work on any printer using the above config.
 
 Author: Tom van Thiel
 Date: May 2024
