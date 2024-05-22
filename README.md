@@ -11,10 +11,12 @@ The Voron 2.4r2 (350mm in my case) printer was equiped with:
 - Raspberry Pi		(Version 4 Model B Rev 1.2)
 - Raspberry Pi OS	(Debian GNU/Linux 12 - bookworm)	
 - A(ny) standard USB 7" touchscreen connected to the Raspberry Pi
-The 7" touchscreens generally dousn't have an onboard buzzer so that's why I made this
 
-The versions above are purely for reference. The solution presented here is based on standard GCODE MACRO functonality.
-It should work on any printer using the above config.
+Commercially available 7" touchscreens generally don't have an onboard buzzer so that's why I made this.
+
+The versions above are purely for reference and completeness of this repository. 
+The solution presented here is based on standard KLIPPER GCODE MACRO functonality.
+It should work on any 3D printer using a BTT Octopus v1.1.1 MCU running KLIPPER.
 
 Author: Tom van Thiel
 Date: May 2024
