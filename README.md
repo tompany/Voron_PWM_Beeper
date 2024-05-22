@@ -5,11 +5,12 @@
 Tom van Thiel
 May 2024
 
-Table of Contents
+## Table of Contents
 - [Credits](#credits)
   - [Preparations](#preparations)
   - [How to convert melodies](#how-to-convert-melodies)
-  - 
+- [Electronics needed](#electronics-needed)
+- [Changes to your printer.cfg](#Changes-to-your-printercfg)
 
 
 ## Credits
