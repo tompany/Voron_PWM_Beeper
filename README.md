@@ -25,7 +25,7 @@ Date: May 2024
   - [Remark](#remark)
 - [How to convert melodies](#how-to-convert-melodies)
   - [ChatGPT instructions](#chatgpt-instructions)
-- [Neccessary changes to your printer.cfg](#nessesary-hanges-to-your-printercfg)
+- [Necessary changes to your printer.cfg](#necesary-hanges-to-your-printercfg)
 - [Electronics needed](#electronics-needed)
 
 
