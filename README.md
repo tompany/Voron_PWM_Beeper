@@ -1,6 +1,6 @@
 # How to play tunes on a speaker from your BTT Octopus v1.1.1 board running KLIPPER
 
-## Originally developped for a Voron 2.4r2 
+## Originally developped for a [Voron 2.4r2 ](https://vorondesign.com/voron2.4)
 
 The Voron 2.4r2 (350mm in my case) printer was equiped with:
 - klipper 		(v0.12.0-192-gb7f7b8a3)
