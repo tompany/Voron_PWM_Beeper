@@ -18,8 +18,12 @@ The versions above are purely for reference and completeness of this repository.
 The solution presented here is based on standard KLIPPER GCODE MACRO functonality.
 It should work on any 3D printer using a BTT Octopus v1.1.1 MCU running KLIPPER.
 
-Author: Tom van Thiel
-Date: May 2024
+The creator of this repository assumes that the reader has basic knowledge of 3D printers that have a 
+BTT Octopus v1.1.1 MCU running KLIPPER and understands the use of GCODE macros.
+
+***
+Author: Tom van Thiel -- Date: May 2024
+***
 
 ## Table of Contents
 - [Credits](#credits)
