@@ -1,4 +1,4 @@
-# How to play tunes on a speaker from your BTT Octopus v1.1.1 board
+# How to play tunes on a speaker from your BTT Octopus v1.1.1 board running KLIPPER
 
 ## Originally developped for a Voron 2.4r2 
 
