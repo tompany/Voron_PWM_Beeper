@@ -99,6 +99,9 @@ Additional instructions:
 
 ## Electronics needed:
 
+The electronics needed are very simple. It is a very rudimentary amplifier that boosts the signal to play it on any (passive) buzzer or small speaker.
+I used an old 8 ohms 1.0 Watt speaker that I got from an old PC. If you Google on: "8 ohm 1 watt speaker" you'll get dozens of suitable 2-4 Euro speakers.
+
 <p align="center"><picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
