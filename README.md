@@ -31,7 +31,7 @@ Date: May 2024
 
 ## Credits
 The tunes and the PWM values in this package are made by [**Robson Couto**](https://github.com/robsoncouto)
-I only made an instruction for ChatGPT to translate his music code into Klipper gcode
+I only made an instruction for ChatGPT to translate his music code into Klipper GCODE MACRO's.
 
 ## Preparations
 - Copy the [tunes__settings.cfg](https://github.com/tompany/Voron_PWM_Beeper/blob/main/Tunes%20Base%20Files/tunes__settings.cfg) to your KLIPPER config files folder [^1]
