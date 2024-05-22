@@ -8,7 +8,7 @@ The Voron 2.4r2 (350mm in my case) printer was equiped with:
 - mainsail 		(v2.11.2)
 - mainsail-config 	(v1.2.1-0-ge57810d5)
 - moonraker 		(v0.8.0-359-g73df63db)
-- Raspberry Pi		(Raspberry Pi 4 Model B Rev 1.2)
+- Raspberry Pi		(Version 4 Model B Rev 1.2)
 - Raspberry Pi OS	(Debian GNU/Linux 12 - bookworm)	
 - A(ny) standard USB 7" touchscreen connected to the Raspberry Pi
 The 7" touchscreens generally dousn't have an onboard buzzer so that's why I made this
