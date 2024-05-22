@@ -20,7 +20,7 @@ I only made an instruction for ChatGPT to translate his music code into Klipper 
 You can find some nice songs on teh github repo of [**Robson Couto**](https://github.com/robsoncouto)
 I made a little instruction for ChatGPT to translate his melodies to gcode
 
-### How to convert the melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
+## How to convert the melodies in [**Robson Couto's**](https://github.com/robsoncouto) repo to PWM based GCODE macro's:
 1) Find melodies on: https://github.com/robsoncouto/arduino-songs
 2) Open the *.ino file of a melody
 3) Look for the part that looks like this:
@@ -70,10 +70,28 @@ Additional instructions:
 ```
 ***
 
-Electronics needed:
+## Electronics needed:
 
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png">
- <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png">
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
  <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
 </picture>
+
+## Changes to your printer.cfg
+
+Using the buzzer pin from EXP1_1 being PE8 to connect a buzzer / speaker there
+Put settings below in printer.cfg to make buzzer work
+
+```
+#################################################################
+#   BUZZER / SPEAKER
+#################################################################
+    
+[pwm_cycle_time buzzer]
+pin: PE8               # output_pin
+value: 0.0
+shutdown_value: 0.0
+cycle_time: 0.001
+```
+
