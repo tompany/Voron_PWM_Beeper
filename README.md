@@ -55,7 +55,7 @@ These are the instructions to be copied in ChatGPT:
 ```
 Hey ChatGPT, take this code:
 
-=====> PASTE THE MUSIC CODE YOU SELECTED AND COPIED IN STEP 3 ABOVE <=====
+     =====> PASTE THE MUSIC CODE YOU SELECTED AND COPIED IN STEP 3 ABOVE <=====
 
 And translate it using the below instructions:
 
@@ -84,11 +84,11 @@ Additional instructions:
 
 ## Electronics needed:
 
-<picture>
+<p align="center"><picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
  <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
-</picture>
+</picture></p>
 
 ## Changes to your printer.cfg
 
