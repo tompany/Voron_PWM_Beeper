@@ -25,8 +25,8 @@ Date: May 2024
   - [Remark](#remark)
 - [How to convert melodies](#how-to-convert-melodies)
   - [ChatGPT instructions](#chatgpt-instructions)
+- [Neccessary changes to your printer.cfg](#nessesary-hanges-to-your-printercfg)
 - [Electronics needed](#electronics-needed)
-- [Changes to your printer.cfg](#Changes-to-your-printercfg)
 
 
 ## Credits
@@ -97,18 +97,7 @@ Additional instructions:
 ```
 ***
 
-## Electronics needed:
-
-The electronics needed are very simple. It is a very rudimentary amplifier that boosts the signal to play it on any (passive) buzzer or small speaker.
-I used an old 8 ohms 1.0 Watt speaker that I got from an old PC. If you Google on: "8 ohm 1 watt speaker" you'll get dozens of suitable 2-4 Euro speakers.
-
-<p align="center"><picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
- <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
- <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
-</picture></p>
-
-## Changes to your printer.cfg
+## Necessary changes to your printer.cfg
 
 Using the buzzer pin from EXP1_1 being PE8 to connect a buzzer / speaker there
 Put settings below in printer.cfg to make buzzer work
@@ -125,3 +114,13 @@ shutdown_value: 0.0
 cycle_time: 0.001
 ```
 
+## Electronics needed:
+
+The electronics needed are very simple. It is a very rudimentary amplifier that boosts the signal to play it on any (passive) buzzer or small speaker.
+I used an old 8 ohms 1.0 Watt speaker that I got from an old PC. If you Google on: "8 ohm 1 watt speaker" you'll get dozens of suitable 2-4 Euro speakers.
+
+<p align="center"><picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/tompany/Voron_PWM_Beeper/blob/main/Electronics/Beeper%20Electronics.png" width="50%" height="50%">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture></p>
